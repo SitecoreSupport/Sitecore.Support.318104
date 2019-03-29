@@ -41,11 +41,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Sitecore.ContentSearch">
-      <HintPath>..\..\..\..\..\..\inetpub\wwwroot\524299_xp0_SC902.sc\bin\Sitecore.ContentSearch.dll</HintPath>
+    <Reference Include="Sitecore.ContentSearch, Version=3.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SC.Sitecore.ContentSearch.9.0.2\lib\Sitecore.ContentSearch.dll</HintPath>
+      <Private>False</Private>
     </Reference>
-    <Reference Include="Sitecore.ContentSearch.Azure">
-      <HintPath>..\..\..\..\..\..\inetpub\wwwroot\524299_xp0_SC902.sc\bin\Sitecore.ContentSearch.Azure.dll</HintPath>
+    <Reference Include="Sitecore.ContentSearch.Azure, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SC.Sitecore.ContentSearch.Azure.9.0.2\lib\Sitecore.ContentSearch.Azure.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.Kernel">
       <HintPath>..\packages\SC.Sitecore.Kernel.9.0.2\lib\Sitecore.Kernel.dll</HintPath>
